@@ -1,0 +1,4 @@
+# Request 1: Get data
+GET http://localhost:3001/api/persons
+
+

@@ -1,0 +1,2 @@
+# Request 3: Get specific piece of data
+GET http://localhost:3001/api/persons/7
