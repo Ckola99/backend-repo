@@ -8,7 +8,9 @@
 		"start": "node index.js",
 		"dev": "nodemon index.js",
 		"build:ui": "rm -rf dist && cd ../../Full_stack_open/part2/phonebook/phonebook && npm run build && cp -r dist ../../../../backend-repo/phonebook-backend",
-		"deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push"
+		"deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix"
 	},
 	"keywords": [],
 	"author": "",

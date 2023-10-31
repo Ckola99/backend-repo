@@ -1,8 +1,8 @@
 # Request 4: post specific piece of data
-POST http://localhost:3001/api/persons
+POST http://backend-phonebook-app1.onrender.com/api/persons
 Content-Type: application/json
 
 {
-  "name": "Adam",
-  "number": "123-45678978"
+  "name": "Panel",
+  "number": "123-456789"
 }
