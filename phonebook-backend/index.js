@@ -81,7 +81,6 @@ app.post("/api/persons", (request, response, next) => {
     name: name,
     number: number,
   });
-
   person.save()
     .then(savedPerson => {
       console.log("New person added:", savedPerson);
